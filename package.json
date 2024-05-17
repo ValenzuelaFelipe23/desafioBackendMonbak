@@ -1,0 +1,11 @@
+{
+  "name": "desafiobackendmonbak",
+  "version": "1.0.0",
+  "description": "Desafio backend monbak (Nodejs, Express, MongoDB)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Monbak SPA",
+  "license": "ISC"
+}
