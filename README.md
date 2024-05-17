@@ -63,12 +63,12 @@ Para completar este desafío, debes tener los siguientes requisitos en tu máqui
 
 4. Una vez completado, sube tu solución al repositorio (o enviala en formato .zip) y asegúrate de crear un archivo `INSTRUCTIONS.md` con instrucciones claras sobre cómo ejecutar y probar tu aplicación.
 
-¡Buena suerte!
-
-## Recursos útiles
+## Recursos
 
 - Documentación oficial de Node.js: [Node.js Docs](https://nodejs.org/en/docs/)
 - Documentación de Express.js: [Express.js Docs](https://expressjs.com/)
 - Mdn web docs HTTP: [Http response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 - Tutorial sobre middleware de autenticación en Express.js: [Express.js Authentication Middleware Tutorial](https://www.digitalocean.com/community/tutorials/nodejs-jwt-expressjs)
 - Arquitectura de capas en Nodejs: [Layered Architecture for NodeJs](https://ctrly.blog/nodejs-layered-architecture/)
+
+**Nota**: Este desafío está diseñado para ser completado en una semana (7 días). No dudes en pedir información si algo no está claro.
