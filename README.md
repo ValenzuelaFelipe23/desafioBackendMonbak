@@ -43,15 +43,15 @@ Para completar este desafío, debes tener los siguientes requisitos en tu máqui
 
    - Crea un archivo `routes.js` donde definirás y configurarás los endpoints utilizando un router de Express.
    - Utiliza el router de Express para gestionar las rutas y los controladores asociados a cada endpoint.
-   - Implementa un endpoint para cada verbo HTTP (GET, POST, PUT, DELETE). Por ejemplo:
+   - Implementa un endpoint para cada verbo HTTP (GET, POST, PUT, DELETE):
 
      - `GET /api` : Retorna un mensaje de bienvenida al API.
-     - `GET /api/resource`: Retorna todos los recursos disponibles.
-     - `POST /api/resource`: Crea un nuevo recurso.
-     - `PUT /api/resource/:id`: Actualiza un recurso existente.
-     - `DELETE /api/resource/:id`: Elimina un recurso por su ID.
+     - `GET /api/task`: Retorna todos los recursos disponibles.
+     - `POST /api/task`: Crea un nuevo recurso.
+     - `PUT /api/task/:id`: Actualiza un recurso existente.
+     - `DELETE /api/task/:id`: Elimina un recurso por su ID.
 
-   - Intenta estructurar tu código usando el patron de capas (Layered Pattern) considerando que en este desafío no agregaremos la capa de UI.
+   - Intenta estructurar tu código usando el patron de capas Layered Pattern.
    - Asegúrate de que los códigos de respuesta HTTP sigan las normas actuales y sean apropiados para cada situación.
    - Configura el middleware de CORS (Cross-Origin Resource Sharing) para permitir las solicitudes desde dominios específicos.
    - Utiliza un middleware básico de autenticación para proteger tus endpoints (El endpoint `/api` debe estar libre de protección). Puedes usar, por ejemplo, un token de autenticación enviado en la cabecera de la solicitud (header). En este punto no es neceario implementar un sistema de autenticación completo, simplemente verifica que el token sea válido y que el usuario tenga permisos para acceder a los recursos solicitados.
@@ -61,7 +61,7 @@ Para completar este desafío, debes tener los siguientes requisitos en tu máqui
 
 3. Prueba tu aplicación utilizando herramientas como Postman o cURL para asegurarte de que los endpoints funcionan correctamente y que el middleware de autenticación está protegiendo los recursos de manera adecuada.
 
-4. Una vez completado, sube tu solución al repositorio (o enviala en formato .zip) y asegúrate de modificar este archivo `README.md` con instrucciones claras sobre cómo ejecutar y probar tu aplicación.
+4. Una vez completado, sube tu solución al repositorio (o enviala en formato .zip) y asegúrate de crear un archivo `INSTRUCTIONS.md` con instrucciones claras sobre cómo ejecutar y probar tu aplicación.
 
 ¡Buena suerte!
 
